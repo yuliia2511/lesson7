@@ -58,6 +58,10 @@ form label {
 form button {
     margin-left: 100px;
     width: 80%;
+    background-color: rgb(72, 131, 241);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    
 }
 
 
