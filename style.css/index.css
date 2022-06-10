@@ -6,18 +6,23 @@ body {
     margin-bottom: 10px;
     margin-left: 320px;
     border: 2px solid grey;
-}
+    }
 
 h1 {
     text-align: left;
-    margin: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .two-label {
     max-width: 250px;
 	width: 100%;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 form input:focus{
@@ -25,43 +30,68 @@ form input:focus{
 }
 
 form input {
-    height: 35px;
-    width: 25%;
-    border-radius: 5px;
-    margin: 10px;    
+    margin-left: 10%;
+    margin-right: 10%;     
 }
 
 
 p {
     text-align: center;
-    margin: 10px;  
+    margin-left: 10%;
+    margin-right: 10%; 
+    padding-bottom: 7px; 
 }
 
 .input-p {
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
     text-align: left;
+    margin-top: 2%;
+}
+
+#First-name, #Last-name {
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    width: 240x;
+    padding: 10px 5px 10px 5px;
+    column-count: 2;
 }
 
 #Email {
-    width: 80%;
+    border-radius: 5px;
+    width: 78%;
+    padding: 10px 5px 10px 5px;
 }
 
-#Country {
+#Country, #City {
     display: inline-block;
     margin: 10px;
-    width: 30%;
+    width: 15%;
+    padding-bottom: 5px;
+    margin-top: 2%; 
 }
 
 form label {
-    margin: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 form button {
-    margin-left: 100px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
     width: 80%;
     background-color: rgb(72, 131, 241);
     color: white;
-    padding: 10px 10px 10px 10px;
-    
+    padding: 10px 10px 10px 10px;  
+}
+
+.main-p {
+    color: #969696;
 }
 
 
